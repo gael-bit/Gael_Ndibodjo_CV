@@ -197,7 +197,7 @@ li{
  }
  #conteneur_information{
     width: 100% !important;
-    margin-left: 5%;
+    padding-left: 5%;
     padding-right: 5% !important;
   }
   #photo_profil{
@@ -215,7 +215,7 @@ li{
    font-size: 1.7em !important;
  }
  #ligne{
-   font-size: 1.5em !important;
+   font-size: 1.9em !important;
  }
  
  #f1{
