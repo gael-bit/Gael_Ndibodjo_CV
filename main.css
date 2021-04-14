@@ -99,9 +99,10 @@ li{
  #prenom{
    font-size: 1.4em !important;
  }
- #ligne{
-   font-size: 1.5em !important;
- }
+  #ligne{
+    font-size: 1.27em !important;
+    margin-top: -2.5rem !important;
+  }
  
  #f1{
    font-size: 1.7em !important;
