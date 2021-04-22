@@ -133,10 +133,14 @@ li{
  #f3{
    font-size: 1.7em !important;
  }
- #competences{
+ #competences-1{
    font-size: 1.2em !important;
    margin-left: -0.5rem;
  }
+ #competences-1{
+  font-size: 1.2em !important;
+  margin-left: -0.5rem;
+}
  #formation{
    font-size: 1.2em !important;
  }
@@ -259,10 +263,14 @@ li{
  #f3{
    font-size: 1.9em !important;
  }
- #competences{
+ #competences-1{
    font-size: 1.1em !important;
    margin-left: -0.5rem;
  }
+ #competences-2{
+  font-size: 1.1em !important;
+  margin-left: -0.5rem;
+}
  #formation{
    font-size: 1.1em !important;
  }
@@ -365,7 +373,7 @@ li{
       font-size: 1.4em !important;
     }
     #ligne{
-      font-size: 1.5em !important;
+      font-size: 1.3em !important;
     }
     #f1{
       font-size: 1.3em !important;
@@ -384,7 +392,11 @@ li{
     #f3{
       font-size: 1.3em !important;
     }
-    #competences{
+    #competences-1{
+      font-size: 0.7em !important;
+      margin-left: -0.5rem;
+    }
+    #competences-2{
       font-size: 0.7em !important;
       margin-left: -0.5rem;
     }
@@ -455,7 +467,11 @@ li{
   #f3{
     font-size: 1.3em !important;
   }
-  #competences{
+  #competences-1{
+    font-size: 0.7em !important;
+    margin-left: -0.5rem;
+  }
+  #competences-2{
     font-size: 0.7em !important;
     margin-left: -0.5rem;
   }
@@ -525,7 +541,11 @@ li{
   #f3{
     font-size: 1.5em !important;
   }
-  #competences{
+  #competences-1{
+    font-size: 0.9em !important;
+    margin-left: -0.5rem;
+  }
+  #competences-2{
     font-size: 0.9em !important;
     margin-left: -0.5rem;
   }
@@ -12197,474 +12217,6 @@ textarea.form-control-lg {
   }
 }
 /*
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed&display=swap');
-
- #objectif{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- h1{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- #coordonnees{
-  font-family: 'Open Sans', sans-serif;
- }
-
- #linkedin{
-   opacity: 0.6;
- }
- #f1{
-  font-family: 'Open Sans', sans-serif;
- }
- #f2{
-  font-family: 'Open Sans', sans-serif;
- }
-h2::after{
-  content:" ";
-  border-top: 1px solid rgb(255, 255, 255);
-  display: block;
-  width: 13%;
-  margin-left: 2%;
-  margin-top: 2%;
-}
-li{
-  font-family: 'Open Sans', sans-serif;
-}
-#photo_profil{
-  width: 19%;
- }
-
- #f3{
-  font-family: 'Open Sans', sans-serif;
- }
-
- #EP1{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- #EP2{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- #EP3{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- #EP4{
-  font-family: 'Roboto Condensed', sans-serif;
- }
- #EP5{
-  font-family: 'Roboto Condensed', sans-serif;
- }
-
- #body {
-     width: 75%;
- }
- @media screen and (min-width: 300px) and (max-width: 500px){
-  #body{
-      width: 100% !important;
-      border-color :  white !important;
-      padding-right: 0% !important;
-      margin: 0 !important;
-  }
-  #linkedin{
-   width: 20px !important;
- }
- #conteneur_photo_profil{
-   padding-top: 0% !important;
-   width: 100% !important;
- }
- #conteneur_information{
-    width: 100% !important;
-    padding-left: 5%;
-    padding-right: 5% !important;
-  }
-  #photo_profil{
-    width: 100% !important;
-  }
- #objectif{
-   font-size: 1.5em !important;
-   letter-spacing: 0.1em;
-   padding-left: 0% !important;
- }
-
- #coordonnees{
-   font-size: 1em !important;
- }
- #prenom{
-   font-size: 1.4em !important;
- }
-  #ligne{
-    font-size: 1.27em !important;
-    margin-top: -2.5rem !important;
-  }
-
- #f1{
-   font-size: 1.7em !important;
- }
- #f2{
-   font-size: 1.7em !important;
- }
- #f3{
-   font-size: 1.7em !important;
- }
- #competences{
-   font-size: 1.2em !important;
-   margin-left: -0.5rem;
- }
- #formation{
-   font-size: 1.2em !important;
- }
- #experience_professionnelle{
-   font-size: 1.2em !important;
- }
- #section_programmation{
-   padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_framework{
-  padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_CMS{
-  padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_backend{
-  padding-bottom: 0.8rem !important;
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
-#section_qualite{
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
-#section_logiciels{
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
- h2::after{
-  content:" ";
-  border-top: 1px solid rgba(255, 255, 255, 0);
-  display: block;
-  width: 13%;
-  margin-left: 2%;
-  margin-top: 2%;
-}
- #bloc2{
-   margin-top: 0% !important;
-   display: flex !important;
-   flex-wrap: wrap-reverse !important;
- }
- #bloc3{
-   font-size: 0.7em !important;
-   width: 100% !important;
-   padding-left: 0% !important;
-   text-align: center !important;;
-
- }
- #bloc4{
-  font-size: 0.7em !important;
-  width: 100% !important;
-  padding-left: 0% !important;
-  padding-right: 5% !important;
-  margin-left: 5%;
- }
-
- }
-
- @media screen and (min-width: 500px) and (max-width: 741px){
-  #body{
-      width: 100% !important;
-      border-color :  white !important;
-      padding-right: 0% !important;
-      margin: 0 !important;
-  }
-  #linkedin{
-   width: 20px !important;
- }
- #conteneur_photo_profil{
-   padding-top: 0% !important;
-   width: 100% !important;
- }
- #conteneur_information{
-    width: 100% !important;
-    padding-left: 5%;
-    padding-right: 5% !important;
-  }
-  #photo_profil{
-    width: 100% !important;
-  }
- #objectif{
-   font-size: 1.9em !important;
-   letter-spacing: 0.1em;
-   padding-left: 0% !important;
- }
- #coordonnees{
-   font-size: 1.2em !important;
- }
- #prenom{
-   font-size: 1.7em !important;
- }
- #ligne{
-   font-size: 1.9em !important;
- }
-
- #f1{
-   font-size: 1.9em !important;
- }
- #f2{
-   font-size: 1.9em !important;
- }
- #f3{
-   font-size: 1.9em !important;
- }
- #competences{
-   font-size: 1.1em !important;
-   margin-left: -0.5rem;
- }
- #formation{
-   font-size: 1.1em !important;
- }
- #experience_professionnelle{
-   font-size: 1.1em !important;
- }
- #section_programmation{
-   padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_framework{
-  padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_CMS{
-  padding-left: 0% !important;
-   margin-left: 0% !important;
- }
- #section_backend{
-  padding-bottom: 0.8rem !important;
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
-#section_qualite{
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
-#section_logiciels{
-  padding-top: 0.5rem !important;
-  padding-left: 0% !important;
-   margin-left: 0% !important;
-}
- h2::after{
-  content:" ";
-  border-top: 1px solid rgba(255, 255, 255, 0);
-  display: block;
-  width: 13%;
-  margin-left: 2%;
-  margin-top: 2%;
-}
- #bloc2{
-   margin-top: 0% !important;
-   display: flex !important;
-   flex-wrap: wrap-reverse !important;
- }
- #bloc3{
-   font-size: 1em !important;
-   width: 100% !important;
-   padding-left: 0% !important;
-   text-align: center !important;;
-
- }
- #bloc4{
-  font-size: 1em !important;
-  width: 100% !important;
-  padding-left: 0% !important;
-  padding-right: 5% !important;
-  margin-left: 5%;
- }
-
- }
-
-
- @media screen and (max-width: 1023px){
-   #body{
-     width: 100%;
-     margin-left: 0% !important;
-   }
- }
- @media screen and (min-width: 1023px){
-  #photo_profil{
-    position: absolute;
-    width: 19%;
-   }
-}
- @media screen and (min-width: 767px) and (max-width: 1023px){
-     #body{
-         width: 100%;
-     }
-     #linkedin{
-      width: 20px !important;
-    }
-     #photo_profil{
-      width: 21% !important;
-      position: absolute;
-     }
-    #objectif{
-      font-size: 1.8em !important;
-      letter-spacing: 0.1em;
-    }
-
-    #coordonnees{
-      font-size: 1.03em !important;
-    }
-    #prenom{
-      font-size: 1.4em !important;
-    }
-    #ligne{
-      font-size: 1.5em !important;
-    }
-    #f1{
-      font-size: 1.3em !important;
-    }
-    #f2{
-      font-size: 1.3em !important;
-    }
-    #f3{
-      font-size: 1.3em !important;
-    }
-    #competences{
-      font-size: 0.7em !important;
-      margin-left: -0.5rem;
-    }
-    #formation{
-      font-size: 0.7em !important;
-    }
-    #experience_professionnelle{
-      font-size: 0.7em !important;
-    }
-    #bloc3{
-      font-size: 0.7em !important;
-    }
-    #section_backend{
-      padding-bottom: 0.8rem !important;
-      padding-top: 0.5rem !important;
-    }
-    #section_qualite{
-      padding-top: 0.5rem !important;
-    }
-    #section_logiciels{
-      padding-top: 0.5rem !important;
-    }
-
-  }
-
- @media screen and (min-width: 1023px) and (max-width: 1200px){
-  #photo_profil{
-    width: 15%;
-   }
-  #objectif{
-    font-size: 1.6em !important;
-    letter-spacing: 0.1em !important;
-  }
-  #coordonnees{
-    font-size: 1.03em !important;
-  }
-  #linkedin{
-    width: 20px !important;
-  }
-  #prenom{
-    font-size: 1.3em !important;
-  }
-  #ligne{
-    font-size: 1.5em !important;
-  }
-  #f1{
-    font-size: 1.3em !important;
-  }
-  #f2{
-    font-size: 1.3em !important;
-  }
-  #f3{
-    font-size: 1.3em !important;
-  }
-  #competences{
-    font-size: 0.7em !important;
-    margin-left: -0.5rem;
-  }
-  #formation{
-    font-size: 0.7em !important;
-  }
-  #experience_professionnelle{
-    font-size: 0.7em !important;
-  }
-  #bloc3{
-    font-size: 0.7em !important;
-  }
-  #section_backend{
-    padding-bottom: 0.8rem !important;
-    padding-top: 0.5rem !important;
-  }
-  #section_qualite{
-    padding-top: 0.5rem !important;
-  }
-  #section_logiciels{
-    padding-top: 0.5rem !important;
-  }
-
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1400px){
-  #photo_profil{
-    width: 17%;
-   }
-  #objectif{
-    font-size: 2.1em !important;
-    letter-spacing: 0.1em;
-  }
-  #coordonnees{
-    font-size: 1.33em !important;
-  }
-  #prenom{
-    font-size: 1.8em !important;
-  }
-  #ligne{
-    font-size: 1.5em !important;
-  }
-  #f1{
-    font-size: 1.5em !important;
-  }
-  #f2{
-    font-size: 1.5em !important;
-  }
-  #f3{
-    font-size: 1.5em !important;
-  }
-  #competences{
-    font-size: 0.9em !important;
-    margin-left: -0.5rem;
-  }
-  #formation{
-    font-size: 0.9em !important;
-  }
-  #experience_professionnelle{
-    font-size: 0.9em !important;
-  }
-  #bloc3{
-    font-size: 0.9em !important;
-  }
-  #section_backend{
-    padding-bottom: 0.8rem !important;
-    padding-top: 0.5rem !important;
-  }
-  #section_qualite{
-    padding-top: 0.5rem !important;
-  }
-  #section_logiciels{
-    padding-top: 0.5rem !important;
-  }
-
-}*/
+*/
 
 /*# sourceMappingURL=main.css.map */
