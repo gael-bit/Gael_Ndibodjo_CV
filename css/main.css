@@ -349,12 +349,13 @@ li{
       margin-right: 3rem !important;
     }
      #photo_profil{
-      width: 25% !important;
+      width: 23% !important;
       position: absolute;
      }
     #objectif{
       font-size: 2em !important;
       letter-spacing: 0.1em;
+      padding-left: 4rem !important;
     }
     
     #coordonnees{
@@ -411,12 +412,12 @@ li{
  
  @media screen and (min-width: 1023px) and (max-width: 1200px){
   #photo_profil{
-    width: 17%;
+    width: 15%;
    }
   #objectif{
     font-size: 1.5em !important;
     letter-spacing: 0.1em !important;
-    padding-left: 0rem !important;
+    padding-left: 5rem !important;
   }
   #coordonnees{
     font-size: 0.9em !important;
@@ -434,7 +435,7 @@ li{
     font-size: 1.4em !important;
   }
   #conteneur_photo_profil{
-    margin-top: 0% !important;
+    margin-top: 0.8% !important;
     padding-left: 2.8rem !important;
   }
   #f1{
@@ -482,14 +483,15 @@ li{
 
 @media screen and (min-width: 1200px) and (max-width: 1400px){
   #photo_profil{
-    width: 17%;
+    width: 16%;
    }
   #objectif{
-    font-size: 2.5em !important;
+    font-size: 2em !important;
     letter-spacing: 0.1em;
+    padding-left: 6rem !important;
   }
   #coordonnees{
-    font-size: 1.2em !important;
+    font-size: 1em !important;
     margin-top: -2%;
     padding-bottom: 2% !important;
   }
@@ -497,10 +499,10 @@ li{
     font-size: 1.5em !important;
   }
   #ligne{
-    font-size: 1.9em !important;
+    font-size: 1.6em !important;
   }
   #conteneur_photo_profil{
-    margin-top: 2% !important;
+    margin-top: 1.4% !important;
   }
   #linkedin{
     width: 28px !important;
